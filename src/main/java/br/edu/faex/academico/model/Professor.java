@@ -3,6 +3,11 @@ package br.edu.faex.academico.model;
 public class Professor {
     private Long id;
     private String nome;
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
     private String email;
 
     public Professor() {
@@ -31,5 +36,17 @@ public class Professor {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public boolean isAtivo(){
+
+        return false;
+    }
+
+
+    public void setId(long id) {
+    }
+
+    public void setAtivo(boolean ativo) {
     }
 }

@@ -32,4 +32,20 @@ public class Curso {
     public void setModalidade(String modalidade) {
         this.modalidade = modalidade;
     }
+
+    public int getCargaHoraria() {
+        return 0;
+    }
+
+    public boolean isAtivo() {
+        return false;
+    }
+
+    public void setId(long id) {
+    }
+
+    public void setCargaHoraria(int cargaHoraria) {
+    }
+
+
 }
